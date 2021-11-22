@@ -1,0 +1,18 @@
+
+body {
+    background-color: #181D31;
+}
+
+#calculadora{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    padding-bottom: 50px;
+    border: 10px dashed rgb(66, 61, 62);
+}
+
+#teclado{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+}
